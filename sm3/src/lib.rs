@@ -20,5 +20,6 @@ pub use block_api::Sm3Core;
 digest::buffer_fixed!(
     /// ShangMi 3 (SM3) hasher.
     pub struct Sm3(block_api::Sm3Core);
+    oid: "2.16.840.1.101.3.4.2.1";
     impl: FixedHashTraits;
 );
